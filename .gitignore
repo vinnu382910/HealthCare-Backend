@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+debug.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Database dumps (optional)
+*.sql
+*.sqlite
+dump.rdb
+
+# Optional: PM2 logs
+pids/
+*.log
+logs/
+
+# Optional: Docker
+docker-compose.override.yml
+.docker/
+
+# Optional: ESLint / Prettier cache
+.eslintcache
+.prettiercache
